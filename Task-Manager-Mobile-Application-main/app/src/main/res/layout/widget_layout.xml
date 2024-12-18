@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/widget_layout.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/widget_background"
+    android:elevation="10dp"
+    android:layout_margin="8dp">
+
+    <!-- Widget Title -->
+    <TextView
+        android:id="@+id/widgetText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TaskMaster"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:shadowColor="#80000000"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="6"
+        android:letterSpacing="0.1"
+        android:paddingBottom="12dp"
+        android:transitionName="widgetTextTransition"/>
+
+    <!-- Icon with Shadow -->
+    <ImageView
+        android:id="@+id/widgetIcon"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:src="@drawable/logo"
+        android:elevation="12dp"
+        android:layout_marginTop="12dp"
+        android:contentDescription="TaskMaster Logo"
+        android:transitionName="widgetIconTransition"/>
+</LinearLayout>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">TaskMaster</string>
+    <string name="Logo_name">TaskMasterLogo</string>
+    <string name="onboard_01_button">Next</string>
+    <string name="onboard_02_button">Next</string>
+    <string name="onboard_03_button">Get Started</string>
+    <string name="submitButton">Schedule Notification</string>
+    <string name="messgae1">Manage your tasks</string>
+    <string name="message2">Organize, prioritize, and track tasks efficiently</string>
+    <string name="message3">Create daily routine</string>
+    <string name="message4">In Up todo  you can create your personalized routine to stay productive</string>
+    <string name="message5">Create daily routine</string>
+    <string name="message6">Create daily routine</string>
+    <string name="ReminderTopic">Reminders</string>
+    <string name="title">Title</string>
+    <string name="Messgae">Message</string>
+    <string name="reminderListButton">View Reminder List</string>
+    <string name="taskListTopic">TaskList</string>
+    <string name="tasklist">TaskList</string>
+    <string name="deleteButton">Delete</string>
+    <string name="usernamehint">UserName</string>
+    <string name="emailhint">Email</string>
+    <string name="passwordhint">Password</string>
+    <string name="reenterpasswordhint">Re-Password</string>
+    <string name="signuptopic">Sign up</string>
+</resources>
